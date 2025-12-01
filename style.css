@@ -103,7 +103,14 @@ header{
     .hamburger{
         display: block;
     }
+
     .nav-list{
+        align-items: center;
+    }
+    .nav-list li{
+        margin: 5px 2px;
+    }
+    .nav-list {
         display: none;
         width: 200px;
         min-height: 100vh;
@@ -112,16 +119,14 @@ header{
         top: 70px;
         right: 0;
         padding: 1em 0;
+        background-color: #ffffff;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-    .nav-list{
-        align-items: center;
-    }
-    .nav-list li{
-        margin: 5px 2px;
+
+    .nav-list.nav-open {
+        display: flex;
     }
 }
-
 /* Hero section*/
 .hero-section{
     padding: 80px 40px;
