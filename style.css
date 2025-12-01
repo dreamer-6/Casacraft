@@ -837,40 +837,6 @@ a {
     padding: 0 20px;
 }
 
-/* Header Styling (for context) */
-.site-header {
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    color: #000;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li a {
-    margin-left: 25px;
-    font-size: 0.9rem;
-    color: #555;
-}
-
-.header-icons span {
-    margin-left: 20px;
-    cursor: pointer;
-}
-
 /* Footer Styling */
 .site-footer {
     background-color: #000;
